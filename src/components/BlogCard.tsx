@@ -51,7 +51,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ blog }) => {
     setIsTranslating(true);
 
     try {
-      const response = await fetch('https://team-dedsec-backend.vercel.app/translate-blog', {
+      const response = await fetch('https://team-dedsec-backend.onrender.com/translate-blog', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
