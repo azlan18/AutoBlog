@@ -129,7 +129,7 @@ const VideoUpload = () => {
         <div className="container mx-auto p-4 bg-gradient-to-br from-blue-50 to-purple-50 min-h-screen flex items-center justify-center">
             <Card className="w-full max-w-2xl mx-auto shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-blue-500">
                 <CardHeader className="bg-gradient-to-r from-blue-100 to-purple-100">
-                    <CardTitle className="text-2xl font-bold text-gray-800">Upload Video for Transcription(Kindly select at vid < 1 min)</CardTitle>
+                    <CardTitle className="text-2xl font-bold text-gray-800">Upload Video for Transcription(Kindly select at vid under 1 min)</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
                     <form onSubmit={handleSubmit} className="space-y-4">
