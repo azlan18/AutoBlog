@@ -42,7 +42,7 @@ const BlogList: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8 my-12">
       <h1 className="text-3xl font-bold mb-8 text-center text-black font-mono">Blog Posts</h1>
-      <p className="xl fint-bold text-center mb-8 text-black font-mono">(Kindly only use Navbar to navigate. Do not refresh page)</p>
+      <p className="xl font-bold text-center mb-8 text-black font-mono">(Kindly only use Navbar to navigate. Do not refresh page)</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {blogs.map((blog) => (
           <BlogCard key={blog._id} blog={blog} />
